@@ -42,7 +42,7 @@
         <!--수정화면-->
         <scene sceneID="dWP-EL-b6z">
             <objects>
-                <viewController id="yNm-nz-HJ0" sceneMemberID="viewController">
+                <viewController id="yNm-nz-HJ0" customClass="EditViewController" customModule="Navigation" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="uN2-AE-nmN">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -51,9 +51,12 @@
                                 <rect key="frame" x="356" y="113" width="30" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="완료"/>
+                                <connections>
+                                    <action selector="btnDone:" destination="yNm-nz-HJ0" eventType="touchUpInside" id="PI1-9p-X4C"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="edp-Re-m8U">
-                                <rect key="frame" x="20" y="113" width="42" height="21"/>
+                                <rect key="frame" x="20" y="113" width="243" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -64,10 +67,13 @@
                         <viewLayoutGuide key="safeArea" id="Tfe-Yi-OEi"/>
                     </view>
                     <navigationItem key="navigationItem" title="수정화면" id="ccW-6S-2VZ"/>
+                    <connections>
+                        <outlet property="lblway" destination="edp-Re-m8U" id="tZ7-pz-zxb"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vug-Bj-eT0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1838" y="-17"/>
+            <point key="canvasLocation" x="1837.68115942029" y="-17.410714285714285"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="glt-d8-kLQ">
