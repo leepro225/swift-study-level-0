@@ -14,6 +14,8 @@
 		5B0A439E2472048600A5855C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A439D2472048600A5855C /* Assets.xcassets */; };
 		5B0A43A12472048600A5855C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0A439F2472048600A5855C /* LaunchScreen.storyboard */; };
 		5B4F6D0C247DDF8A00ABED88 /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B4F6D0B247DDF8A00ABED88 /* EditViewController.swift */; };
+		5B83EE6C24A95D8000B6F83C /* lamp_off.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83EE6A24A95D8000B6F83C /* lamp_off.jpg */; };
+		5B83EE6D24A95D8000B6F83C /* lamp_on.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5B83EE6B24A95D8000B6F83C /* lamp_on.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		5B0A43A02472048600A5855C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B0A43A22472048600A5855C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5B4F6D0B247DDF8A00ABED88 /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		5B83EE6A24A95D8000B6F83C /* lamp_off.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lamp_off.jpg; path = ../../ImageView/ImageView/lamp_off.jpg; sourceTree = "<group>"; };
+		5B83EE6B24A95D8000B6F83C /* lamp_on.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = lamp_on.jpg; path = ../../ImageView/ImageView/lamp_on.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,8 @@
 		5B0A43932472048500A5855C /* Navigation */ = {
 			isa = PBXGroup;
 			children = (
+				5B83EE6A24A95D8000B6F83C /* lamp_off.jpg */,
+				5B83EE6B24A95D8000B6F83C /* lamp_on.jpg */,
 				5B0A43942472048500A5855C /* AppDelegate.swift */,
 				5B0A43962472048500A5855C /* SceneDelegate.swift */,
 				5B0A43982472048500A5855C /* ViewController.swift */,
@@ -130,7 +136,9 @@
 			files = (
 				5B0A43A12472048600A5855C /* LaunchScreen.storyboard in Resources */,
 				5B0A439E2472048600A5855C /* Assets.xcassets in Resources */,
+				5B83EE6D24A95D8000B6F83C /* lamp_on.jpg in Resources */,
 				5B0A439C2472048500A5855C /* Main.storyboard in Resources */,
+				5B83EE6C24A95D8000B6F83C /* lamp_off.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
