@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AutoLayout" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="lamp_on.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="vyX-sG-SKS">
+                                <rect key="frame" x="16" y="44" width="383" height="801"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="16" id="0ZX-Hu-U2R"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vyX-sG-SKS" secondAttribute="bottom" id="2vg-Yc-Kiu"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="7Mh-ZZ-mQU"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="9EP-gD-nYW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vyX-sG-SKS" secondAttribute="bottom" id="FU4-Ab-OjM"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="G2E-9r-Ku4"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="Lrn-hQ-gg0"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="LuA-rZ-pBS"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="O3I-wJ-yja"/>
+                            <constraint firstAttribute="trailing" secondItem="vyX-sG-SKS" secondAttribute="trailing" id="SfE-r4-aFd"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="V1T-8D-2YE"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="VCD-vg-df6"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="VGY-7p-uCF"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="X8c-9c-onG"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="XT9-Sw-nR2"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Y0D-9c-pVS"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="aE0-3f-Hdw"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vyX-sG-SKS" secondAttribute="trailing" constant="15" id="bpO-Ts-XrV"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="f57-Pn-sMs"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="15" id="h4P-Wc-dHP"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="jbO-fb-Uzo"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="q6n-zY-8eR"/>
+                            <constraint firstAttribute="trailing" secondItem="vyX-sG-SKS" secondAttribute="trailing" id="u8i-wB-uu8"/>
+                            <constraint firstItem="vyX-sG-SKS" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="vSJ-TB-c14"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vyX-sG-SKS" secondAttribute="bottom" id="vSd-fF-ooV"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="vyX-sG-SKS" secondAttribute="trailing" id="ydP-9h-owW"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="137.94642857142856"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="lamp_on.jpg" width="1125" height="2436"/>
+    </resources>
+</document>
